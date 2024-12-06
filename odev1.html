@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="ekran">
+    <form>
+        <label class="isim" for="adsoyad"><b>Ad Soyad:</b></label><br>
+        <input type="text" class="input-box"><br>
+        <label class="isim" for="email"><b>E-Posta:</b></label><br>
+        <input type="text" class="input-box"><br>
+        <label class="isim" for="tel"><b>Telefon:</b></label><br>
+        <input type="text" class="input-box" maxlength="11"><br>
+        <label class="isim" for="dogumgunu"><b>Doğum Tarihi:</b></label><br>
+        <input type="date" class="input-box"><br>
+        <label class="isim" for="cinsiyet"><b>Cinsiyet:</b></label><br>
+        <label><input type="radio" name="cinsiyet" value="erkek">Erkek</label> 
+        <label><input type="radio" name="cinsiyet" value="kadin">Kadın</label><br>
+        <label class="isim" for="ulke"><b>Ülke:</b></label><br>
+        <select name="Ülke" class="input-box"><br>
+            <option>Ülke Seçiniz</option>
+            <option>Almanya</option>
+            <option>Belçika</option>
+            <option>Bosna Hersek</option>
+            <option>Cezayir</option>
+            <option>Danimarka</option>
+            <option>Fransa</option>
+            <option>Türkiye</option>
+        </select><br>
+        <label for="parola" class="isim"><b>Parola:</b></label><br>
+        <input type="password" name="parola" class="input-box"><br>
+        <label for="mesaj" class="isim"><b>Mesajınız:</b></label><br>
+        <textarea name="mesaj" style="width:200px; height:100px;"></textarea><br>
+        <button onclick="alert('HATA')" class="button">GÖNDER</button>
+    </form>
+    </div>
+</body>
+</html>
